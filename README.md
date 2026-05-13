@@ -68,3 +68,70 @@ HabitFlow/
 ├── backend/
 ├── README.md
 ├── PROJECT_WALKTHROUGH.md
+
+
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/jainil1211/habitflow-smart-tracker.git
+```
+
+---
+
+### 2. Backend Setup
+
+```bash
+cd backend
+npm install
+```
+
+Create `.env`
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret
+```
+
+Run backend:
+
+```bash
+npm run dev
+```
+
+---
+
+### 3. Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here later)
+
+---
+
+## 🧠 Future Improvements
+
+- Push notifications
+- AI habit suggestions
+- Social habit groups
+- Advanced analytics
+
+---
+
+## 👨‍💻 Author
+
+Built with ❤️ by Jainil Limbachiya
